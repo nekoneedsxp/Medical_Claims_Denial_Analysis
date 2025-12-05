@@ -1,0 +1,501 @@
+Claim_ID,Date_of_Service,Insurance_Provider,Procedure_Code,Billed_Amount,Claim_Status,Denial_Reason
+1001,6/14/2023,UnitedHealth,99214,287,Paid,
+1002,4/4/2023,UnitedHealth,99213,106,Paid,
+1003,12/2/2023,BlueCross,99214,165,Paid,
+1004,1/14/2023,Aetna,36415,186,Paid,
+1005,7/1/2023,Medicare,99213,434,Denied,Prior Auth Missing
+1006,4/11/2023,UnitedHealth,99203,397,Paid,
+1007,3/25/2023,Medicare,99203,297,Paid,
+1008,5/14/2023,UnitedHealth,99214,147,Paid,
+1009,2/26/2023,Medicare,99213,128,Pending,
+1010,2/26/2023,Aetna,99213,208,Denied,Coverage Terminated
+1011,4/5/2023,Cigna,99204,313,Paid,
+1012,11/15/2023,Cigna,99214,435,Paid,
+1013,2/12/2023,UnitedHealth,99213,333,Denied,Coverage Terminated
+1014,10/24/2023,UnitedHealth,99214,418,Denied,Duplicate Claim
+1015,3/22/2023,BlueCross,36415,295,Denied,Coding Error
+1016,10/11/2023,Medicare,99203,190,Paid,
+1017,3/26/2023,BlueCross,36415,150,Paid,
+1018,2/20/2023,Medicare,99204,241,Paid,
+1019,9/19/2023,Medicare,99203,203,Denied,Prior Auth Missing
+1020,9/5/2023,Medicare,99203,399,Paid,
+1021,5/28/2023,Aetna,99204,348,Paid,
+1022,4/13/2023,BlueCross,36415,269,Paid,
+1023,3/1/2023,Cigna,99214,309,Paid,
+1024,4/27/2023,Medicare,99213,107,Paid,
+1025,8/11/2023,Aetna,99213,126,Pending,
+1026,4/23/2023,Medicare,99204,147,Paid,
+1027,7/31/2023,Medicare,99203,139,Denied,Prior Auth Missing
+1028,3/8/2023,UnitedHealth,36415,447,Paid,
+1029,3/31/2023,Aetna,99203,203,Paid,
+1030,9/13/2023,Medicare,36415,117,Denied,Prior Auth Missing
+1031,12/14/2023,Aetna,99213,395,Paid,
+1032,5/17/2023,BlueCross,99204,404,Paid,
+1033,11/11/2023,Aetna,36415,115,Paid,
+1034,8/30/2023,UnitedHealth,99204,332,Paid,
+1035,1/21/2023,Medicare,36415,275,Denied,Prior Auth Missing
+1036,7/14/2023,Medicare,99213,410,Denied,Prior Auth Missing
+1037,2/25/2023,Aetna,36415,433,Denied,Prior Auth Missing
+1038,12/28/2023,Aetna,36415,227,Paid,
+1039,6/13/2023,BlueCross,99214,144,Paid,
+1040,9/27/2023,Medicare,99204,278,Denied,Prior Auth Missing
+1041,7/27/2023,UnitedHealth,99203,272,Paid,
+1042,3/5/2023,UnitedHealth,99214,383,Paid,
+1043,6/19/2023,Medicare,36415,432,Denied,Prior Auth Missing
+1044,2/3/2023,Medicare,99204,255,Paid,
+1045,12/22/2023,Cigna,36415,376,Paid,
+1046,5/9/2023,Cigna,99214,412,Pending,
+1047,11/19/2023,UnitedHealth,99204,336,Paid,
+1048,11/23/2023,Cigna,36415,319,Denied,Prior Auth Missing
+1049,5/16/2023,Medicare,99213,234,Denied,Prior Auth Missing
+1050,9/18/2023,Medicare,99204,113,Paid,
+1051,8/10/2023,Medicare,36415,267,Paid,
+1052,1/13/2023,Medicare,99214,277,Pending,
+1053,3/4/2023,BlueCross,99204,111,Denied,Duplicate Claim
+1054,1/18/2023,Aetna,99214,250,Paid,
+1055,11/16/2023,Medicare,99203,371,Paid,
+1056,4/24/2023,BlueCross,99213,339,Paid,
+1057,8/31/2023,UnitedHealth,36415,365,Paid,
+1058,12/29/2023,Cigna,99203,174,Paid,
+1059,6/16/2023,BlueCross,99203,168,Paid,
+1060,6/11/2023,Cigna,99203,196,Paid,
+1061,2/22/2023,BlueCross,99204,368,Paid,
+1062,5/18/2023,UnitedHealth,99214,384,Paid,
+1063,6/9/2023,BlueCross,99203,119,Paid,
+1064,8/11/2023,Cigna,99213,201,Paid,
+1065,3/31/2023,UnitedHealth,99214,202,Paid,
+1066,6/21/2023,Medicare,99214,371,Denied,Prior Auth Missing
+1067,3/29/2023,UnitedHealth,36415,400,Paid,
+1068,12/29/2023,Aetna,99204,117,Pending,
+1069,10/22/2023,Medicare,99213,146,Paid,
+1070,2/8/2023,BlueCross,99203,149,Paid,
+1071,7/28/2023,BlueCross,99203,271,Paid,
+1072,9/6/2023,Medicare,99214,359,Denied,Prior Auth Missing
+1073,8/21/2023,Medicare,99213,337,Denied,Prior Auth Missing
+1074,8/23/2023,UnitedHealth,99204,371,Denied,Duplicate Claim
+1075,9/29/2023,UnitedHealth,99214,239,Paid,
+1076,8/29/2023,UnitedHealth,99203,403,Paid,
+1077,7/20/2023,Medicare,99214,164,Paid,
+1078,11/6/2023,UnitedHealth,99213,257,Paid,
+1079,12/3/2023,Medicare,99204,379,Denied,Prior Auth Missing
+1080,10/4/2023,BlueCross,99204,251,Paid,
+1081,8/9/2023,Aetna,99204,183,Paid,
+1082,12/26/2023,Medicare,99204,160,Paid,
+1083,2/25/2023,Medicare,99214,200,Paid,
+1084,12/16/2023,UnitedHealth,99203,329,Paid,
+1085,8/31/2023,BlueCross,99203,272,Paid,
+1086,4/11/2023,BlueCross,99213,217,Paid,
+1087,5/14/2023,Medicare,99214,324,Paid,
+1088,11/18/2023,UnitedHealth,99204,342,Denied,Prior Auth Missing
+1089,11/18/2023,BlueCross,99214,161,Paid,
+1090,4/2/2023,Medicare,99203,359,Denied,Prior Auth Missing
+1091,4/29/2023,UnitedHealth,99214,358,Denied,Duplicate Claim
+1092,6/27/2023,Medicare,99204,185,Paid,
+1093,9/12/2023,Cigna,99213,114,Denied,Coding Error
+1094,6/3/2023,Medicare,99204,286,Paid,
+1095,6/9/2023,Medicare,36415,151,Denied,Prior Auth Missing
+1096,9/1/2023,Aetna,99203,234,Paid,
+1097,11/23/2023,Aetna,99204,376,Paid,
+1098,9/12/2023,BlueCross,99204,368,Paid,
+1099,6/14/2023,Aetna,99204,343,Denied,Coverage Terminated
+1100,11/24/2023,Medicare,99203,151,Paid,
+1101,11/6/2023,Medicare,99204,300,Denied,Prior Auth Missing
+1102,11/15/2023,BlueCross,99203,356,Paid,
+1103,6/30/2023,Cigna,99204,246,Denied,Prior Auth Missing
+1104,2/20/2023,Cigna,36415,430,Paid,
+1105,2/10/2023,Aetna,99203,104,Paid,
+1106,3/21/2023,BlueCross,36415,120,Pending,
+1107,8/7/2023,BlueCross,99213,280,Paid,
+1108,9/4/2023,Medicare,99213,207,Paid,
+1109,12/13/2023,BlueCross,36415,417,Denied,Coding Error
+1110,7/1/2023,Medicare,99214,321,Denied,Prior Auth Missing
+1111,8/7/2023,UnitedHealth,99214,213,Paid,
+1112,3/1/2023,UnitedHealth,36415,221,Paid,
+1113,11/20/2023,BlueCross,36415,141,Paid,
+1114,11/4/2023,Medicare,99214,243,Paid,
+1115,1/31/2023,Medicare,99203,153,Denied,Prior Auth Missing
+1116,4/17/2023,BlueCross,99213,423,Paid,
+1117,8/12/2023,Cigna,36415,260,Paid,
+1118,8/1/2023,Cigna,99203,372,Paid,
+1119,11/21/2023,BlueCross,99203,302,Paid,
+1120,6/18/2023,Aetna,99214,402,Paid,
+1121,3/7/2023,Cigna,36415,157,Paid,
+1122,1/29/2023,Medicare,36415,379,Denied,Prior Auth Missing
+1123,8/25/2023,Aetna,99214,152,Paid,
+1124,6/21/2023,Medicare,99213,129,Paid,
+1125,11/4/2023,Medicare,99213,128,Pending,
+1126,8/27/2023,UnitedHealth,99214,381,Paid,
+1127,10/8/2023,Medicare,99204,383,Paid,
+1128,2/22/2023,Medicare,99213,174,Denied,Prior Auth Missing
+1129,6/7/2023,Medicare,36415,126,Paid,
+1130,1/15/2023,BlueCross,99214,297,Paid,
+1131,5/29/2023,UnitedHealth,99204,223,Paid,
+1132,2/25/2023,Medicare,36415,190,Paid,
+1133,10/10/2023,Cigna,99204,252,Paid,
+1134,1/28/2023,BlueCross,99203,444,Paid,
+1135,11/30/2023,Medicare,99213,241,Paid,
+1136,11/8/2023,BlueCross,99204,299,Paid,
+1137,8/10/2023,UnitedHealth,99214,262,Paid,
+1138,9/7/2023,UnitedHealth,36415,426,Denied,Prior Auth Missing
+1139,10/28/2023,Aetna,99213,258,Paid,
+1140,6/27/2023,BlueCross,99213,354,Paid,
+1141,8/5/2023,UnitedHealth,36415,183,Paid,
+1142,5/3/2023,BlueCross,99213,331,Paid,
+1143,12/24/2023,Aetna,99203,172,Paid,
+1144,2/9/2023,Medicare,99204,134,Pending,
+1145,8/6/2023,Medicare,99204,446,Paid,
+1146,11/12/2023,Aetna,99204,108,Paid,
+1147,11/12/2023,BlueCross,99203,419,Paid,
+1148,8/28/2023,UnitedHealth,99204,286,Paid,
+1149,2/10/2023,BlueCross,99203,355,Paid,
+1150,2/28/2023,Aetna,99213,204,Paid,
+1151,8/5/2023,Medicare,99204,417,Paid,
+1152,7/22/2023,UnitedHealth,99214,280,Paid,
+1153,6/22/2023,Aetna,99203,446,Paid,
+1154,4/8/2023,UnitedHealth,99213,396,Paid,
+1155,5/17/2023,UnitedHealth,99213,235,Paid,
+1156,12/5/2023,BlueCross,99203,206,Paid,
+1157,12/27/2023,UnitedHealth,36415,372,Paid,
+1158,5/28/2023,BlueCross,99204,357,Paid,
+1159,11/13/2023,Cigna,99214,215,Paid,
+1160,7/22/2023,BlueCross,36415,123,Paid,
+1161,10/29/2023,Medicare,36415,327,Pending,
+1162,3/15/2023,Aetna,99214,425,Paid,
+1163,9/12/2023,Aetna,36415,450,Paid,
+1164,4/4/2023,BlueCross,99204,225,Paid,
+1165,2/23/2023,Aetna,36415,162,Denied,Coding Error
+1166,10/2/2023,BlueCross,99214,131,Paid,
+1167,2/18/2023,BlueCross,99204,351,Paid,
+1168,5/7/2023,Medicare,99214,339,Denied,Prior Auth Missing
+1169,12/26/2023,BlueCross,99214,315,Paid,
+1170,4/16/2023,Aetna,99203,333,Paid,
+1171,1/22/2023,BlueCross,99213,281,Paid,
+1172,5/24/2023,Cigna,99203,131,Paid,
+1173,10/16/2023,Aetna,36415,208,Paid,
+1174,10/2/2023,UnitedHealth,99203,255,Paid,
+1175,3/13/2023,Aetna,99213,321,Paid,
+1176,2/22/2023,BlueCross,99213,295,Paid,
+1177,3/4/2023,UnitedHealth,99203,425,Paid,
+1178,7/22/2023,Cigna,36415,329,Pending,
+1179,9/20/2023,BlueCross,99203,127,Paid,
+1180,6/3/2023,Aetna,99214,427,Denied,Prior Auth Missing
+1181,12/4/2023,Aetna,99213,185,Paid,
+1182,8/2/2023,Aetna,99213,360,Denied,Coverage Terminated
+1183,7/15/2023,Cigna,99203,368,Paid,
+1184,3/20/2023,UnitedHealth,99213,114,Paid,
+1185,2/9/2023,Medicare,99213,139,Denied,Prior Auth Missing
+1186,3/31/2023,Medicare,36415,388,Paid,
+1187,10/23/2023,Medicare,99213,372,Paid,
+1188,8/17/2023,Cigna,99214,110,Paid,
+1189,10/4/2023,Medicare,99213,422,Paid,
+1190,11/26/2023,BlueCross,99203,232,Paid,
+1191,3/5/2023,Medicare,99213,259,Pending,
+1192,3/5/2023,Aetna,99204,200,Paid,
+1193,9/2/2023,Medicare,99203,123,Paid,
+1194,7/12/2023,UnitedHealth,99203,123,Paid,
+1195,8/31/2023,Aetna,99204,429,Paid,
+1196,4/11/2023,BlueCross,36415,162,Paid,
+1197,7/22/2023,Medicare,99214,367,Paid,
+1198,5/14/2023,BlueCross,36415,207,Paid,
+1199,8/26/2023,BlueCross,99204,408,Denied,Duplicate Claim
+1200,6/3/2023,UnitedHealth,99204,277,Pending,
+1201,2/14/2023,Aetna,36415,295,Paid,
+1202,3/9/2023,Aetna,99213,108,Paid,
+1203,5/9/2023,BlueCross,99214,282,Denied,Coding Error
+1204,10/15/2023,Aetna,36415,194,Pending,
+1205,4/10/2023,UnitedHealth,99203,406,Paid,
+1206,6/11/2023,BlueCross,99213,328,Paid,
+1207,9/15/2023,Aetna,99213,159,Paid,
+1208,3/20/2023,Aetna,99204,202,Denied,Prior Auth Missing
+1209,7/28/2023,BlueCross,99213,269,Paid,
+1210,9/26/2023,Medicare,99213,364,Paid,
+1211,6/10/2023,Medicare,99213,311,Paid,
+1212,12/25/2023,UnitedHealth,36415,173,Paid,
+1213,11/25/2023,UnitedHealth,99203,426,Paid,
+1214,5/28/2023,BlueCross,36415,242,Paid,
+1215,5/19/2023,Medicare,36415,370,Denied,Prior Auth Missing
+1216,6/12/2023,Aetna,99214,233,Paid,
+1217,5/6/2023,BlueCross,99214,217,Denied,Coverage Terminated
+1218,5/6/2023,BlueCross,99203,300,Paid,
+1219,6/25/2023,Medicare,99204,129,Paid,
+1220,5/8/2023,Medicare,99203,111,Denied,Prior Auth Missing
+1221,10/7/2023,UnitedHealth,99203,190,Denied,Duplicate Claim
+1222,8/25/2023,Cigna,36415,349,Paid,
+1223,8/26/2023,Medicare,99213,221,Pending,
+1224,3/14/2023,Cigna,99203,401,Denied,Duplicate Claim
+1225,8/8/2023,BlueCross,99203,409,Paid,
+1226,11/15/2023,Medicare,36415,148,Paid,
+1227,6/1/2023,Aetna,99204,173,Paid,
+1228,7/22/2023,UnitedHealth,99204,130,Pending,
+1229,12/18/2023,Cigna,99203,114,Paid,
+1230,10/10/2023,Aetna,99214,108,Paid,
+1231,1/22/2023,Aetna,36415,348,Paid,
+1232,6/10/2023,Cigna,99204,395,Paid,
+1233,11/9/2023,Medicare,99214,376,Denied,Prior Auth Missing
+1234,5/19/2023,Medicare,99214,100,Denied,Prior Auth Missing
+1235,3/23/2023,UnitedHealth,99203,291,Paid,
+1236,7/3/2023,UnitedHealth,99203,419,Paid,
+1237,7/24/2023,Medicare,99213,159,Denied,Prior Auth Missing
+1238,8/6/2023,Medicare,99214,116,Denied,Prior Auth Missing
+1239,11/23/2023,Cigna,36415,199,Paid,
+1240,12/24/2023,BlueCross,99213,157,Pending,
+1241,8/3/2023,Aetna,99214,105,Paid,
+1242,9/12/2023,BlueCross,99213,106,Paid,
+1243,12/17/2023,Aetna,99213,250,Paid,
+1244,4/23/2023,Aetna,36415,278,Paid,
+1245,9/5/2023,BlueCross,99203,303,Paid,
+1246,7/1/2023,UnitedHealth,99214,145,Paid,
+1247,12/6/2023,Medicare,99214,436,Denied,Prior Auth Missing
+1248,8/31/2023,BlueCross,99214,429,Pending,
+1249,1/6/2023,Cigna,36415,431,Paid,
+1250,8/4/2023,BlueCross,99214,146,Pending,
+1251,4/25/2023,BlueCross,99214,283,Paid,
+1252,9/16/2023,BlueCross,36415,423,Paid,
+1253,6/27/2023,Aetna,99214,425,Paid,
+1254,4/3/2023,BlueCross,99203,302,Paid,
+1255,1/27/2023,Aetna,36415,266,Paid,
+1256,6/23/2023,BlueCross,99204,116,Pending,
+1257,7/28/2023,UnitedHealth,99213,386,Paid,
+1258,4/29/2023,BlueCross,36415,404,Denied,Coverage Terminated
+1259,3/10/2023,Medicare,99203,337,Paid,
+1260,7/7/2023,Aetna,36415,119,Paid,
+1261,9/25/2023,BlueCross,99214,425,Paid,
+1262,1/7/2023,Medicare,36415,197,Paid,
+1263,2/4/2023,Medicare,36415,356,Paid,
+1264,2/12/2023,UnitedHealth,99213,359,Denied,Prior Auth Missing
+1265,7/15/2023,Aetna,99214,263,Paid,
+1266,6/28/2023,Medicare,99213,416,Denied,Prior Auth Missing
+1267,11/29/2023,Aetna,99214,165,Paid,
+1268,7/27/2023,UnitedHealth,36415,226,Denied,Coverage Terminated
+1269,12/5/2023,BlueCross,36415,315,Paid,
+1270,8/21/2023,Cigna,99213,254,Paid,
+1271,3/25/2023,Medicare,99213,178,Denied,Prior Auth Missing
+1272,4/11/2023,BlueCross,99213,208,Pending,
+1273,5/9/2023,UnitedHealth,99214,243,Paid,
+1274,2/27/2023,UnitedHealth,36415,169,Paid,
+1275,10/31/2023,BlueCross,99203,203,Paid,
+1276,1/3/2023,Aetna,99214,419,Paid,
+1277,6/23/2023,UnitedHealth,36415,339,Denied,Coverage Terminated
+1278,12/21/2023,Medicare,36415,201,Paid,
+1279,2/24/2023,UnitedHealth,36415,347,Paid,
+1280,9/12/2023,Medicare,99203,262,Denied,Prior Auth Missing
+1281,7/6/2023,Medicare,99203,340,Pending,
+1282,2/2/2023,UnitedHealth,99214,186,Paid,
+1283,5/4/2023,Medicare,36415,429,Paid,
+1284,9/20/2023,UnitedHealth,99204,385,Paid,
+1285,7/13/2023,BlueCross,99203,307,Paid,
+1286,6/12/2023,UnitedHealth,36415,210,Paid,
+1287,4/14/2023,Medicare,99213,449,Pending,
+1288,5/5/2023,Cigna,99204,179,Denied,Coverage Terminated
+1289,2/3/2023,Aetna,99204,254,Paid,
+1290,2/22/2023,Medicare,99203,157,Denied,Prior Auth Missing
+1291,5/14/2023,UnitedHealth,99204,135,Paid,
+1292,10/31/2023,BlueCross,99204,388,Paid,
+1293,12/16/2023,BlueCross,99213,267,Paid,
+1294,5/22/2023,BlueCross,99203,223,Paid,
+1295,3/5/2023,UnitedHealth,99213,346,Paid,
+1296,7/3/2023,BlueCross,99204,379,Paid,
+1297,8/29/2023,Aetna,99203,161,Paid,
+1298,2/27/2023,BlueCross,99204,384,Paid,
+1299,12/16/2023,Medicare,36415,121,Denied,Prior Auth Missing
+1300,4/21/2023,UnitedHealth,99214,148,Paid,
+1301,6/26/2023,Medicare,99214,152,Paid,
+1302,5/1/2023,Medicare,36415,272,Paid,
+1303,6/3/2023,BlueCross,99203,425,Denied,Coverage Terminated
+1304,8/10/2023,BlueCross,99204,137,Paid,
+1305,12/28/2023,BlueCross,99214,297,Paid,
+1306,8/27/2023,Aetna,36415,221,Denied,Coverage Terminated
+1307,3/25/2023,Aetna,99203,340,Paid,
+1308,12/1/2023,Aetna,36415,246,Paid,
+1309,9/7/2023,Medicare,36415,128,Pending,
+1310,1/18/2023,BlueCross,99214,354,Denied,Coverage Terminated
+1311,11/4/2023,Cigna,99203,222,Paid,
+1312,10/18/2023,Aetna,99214,260,Paid,
+1313,3/9/2023,UnitedHealth,36415,172,Pending,
+1314,4/30/2023,Medicare,99214,324,Denied,Prior Auth Missing
+1315,1/3/2023,Medicare,99203,397,Paid,
+1316,8/22/2023,UnitedHealth,99204,370,Paid,
+1317,10/12/2023,Aetna,36415,365,Paid,
+1318,6/6/2023,UnitedHealth,99214,243,Pending,
+1319,2/27/2023,Cigna,99214,414,Paid,
+1320,4/16/2023,Aetna,99203,178,Paid,
+1321,8/31/2023,UnitedHealth,36415,177,Paid,
+1322,10/1/2023,Medicare,36415,220,Denied,Prior Auth Missing
+1323,4/9/2023,Medicare,99203,152,Denied,Prior Auth Missing
+1324,1/25/2023,Medicare,99213,308,Paid,
+1325,12/20/2023,Cigna,99203,407,Paid,
+1326,7/19/2023,Cigna,99214,407,Paid,
+1327,2/4/2023,Cigna,99213,162,Pending,
+1328,2/28/2023,UnitedHealth,99214,223,Paid,
+1329,2/19/2023,Aetna,99204,320,Paid,
+1330,4/18/2023,Aetna,99214,312,Paid,
+1331,3/12/2023,Aetna,99214,148,Paid,
+1332,1/21/2023,BlueCross,99203,442,Paid,
+1333,7/7/2023,BlueCross,99214,109,Paid,
+1334,12/25/2023,Aetna,99203,379,Denied,Prior Auth Missing
+1335,7/26/2023,Medicare,99214,334,Paid,
+1336,6/27/2023,UnitedHealth,99203,103,Paid,
+1337,5/24/2023,BlueCross,99213,320,Paid,
+1338,1/29/2023,Aetna,99214,162,Paid,
+1339,9/2/2023,UnitedHealth,99214,231,Paid,
+1340,4/12/2023,Aetna,99204,321,Paid,
+1341,7/21/2023,UnitedHealth,99203,315,Paid,
+1342,3/26/2023,Aetna,99213,251,Paid,
+1343,3/22/2023,Medicare,99213,259,Denied,Prior Auth Missing
+1344,8/20/2023,Cigna,99214,159,Paid,
+1345,9/22/2023,UnitedHealth,99203,287,Denied,Prior Auth Missing
+1346,10/13/2023,Medicare,99214,333,Denied,Prior Auth Missing
+1347,4/15/2023,Cigna,99203,270,Paid,
+1348,9/24/2023,Cigna,99203,389,Paid,
+1349,12/25/2023,BlueCross,99214,189,Paid,
+1350,2/9/2023,Medicare,99214,189,Denied,Prior Auth Missing
+1351,7/25/2023,BlueCross,99213,147,Paid,
+1352,12/2/2023,Cigna,99204,260,Paid,
+1353,12/27/2023,Medicare,99204,425,Denied,Prior Auth Missing
+1354,11/23/2023,UnitedHealth,99204,394,Pending,
+1355,1/21/2023,BlueCross,99214,314,Pending,
+1356,1/1/2023,Aetna,99213,272,Denied,Duplicate Claim
+1357,8/7/2023,BlueCross,99203,291,Paid,
+1358,9/20/2023,BlueCross,99204,435,Paid,
+1359,12/17/2023,Cigna,99203,349,Paid,
+1360,1/19/2023,Cigna,99214,326,Denied,Duplicate Claim
+1361,11/19/2023,Medicare,36415,437,Denied,Prior Auth Missing
+1362,12/3/2023,BlueCross,99203,373,Paid,
+1363,1/4/2023,Aetna,99203,371,Paid,
+1364,1/2/2023,Aetna,99203,389,Denied,Coverage Terminated
+1365,2/27/2023,Medicare,36415,303,Paid,
+1366,10/16/2023,BlueCross,99213,127,Paid,
+1367,10/26/2023,Medicare,99204,370,Denied,Prior Auth Missing
+1368,9/14/2023,Medicare,99214,426,Denied,Prior Auth Missing
+1369,10/5/2023,BlueCross,99204,183,Paid,
+1370,5/23/2023,Aetna,99213,433,Paid,
+1371,1/17/2023,BlueCross,99203,263,Paid,
+1372,8/18/2023,Aetna,99214,289,Paid,
+1373,2/3/2023,UnitedHealth,99213,394,Paid,
+1374,1/25/2023,Aetna,99213,107,Paid,
+1375,3/4/2023,Medicare,99203,138,Paid,
+1376,9/15/2023,BlueCross,99203,437,Paid,
+1377,11/19/2023,BlueCross,99214,168,Paid,
+1378,4/26/2023,Cigna,36415,423,Paid,
+1379,3/30/2023,Aetna,36415,396,Paid,
+1380,6/9/2023,Medicare,36415,401,Pending,
+1381,8/7/2023,BlueCross,36415,415,Paid,
+1382,1/31/2023,UnitedHealth,99204,184,Paid,
+1383,6/11/2023,Medicare,99214,282,Denied,Prior Auth Missing
+1384,8/17/2023,UnitedHealth,36415,341,Paid,
+1385,7/4/2023,BlueCross,99203,325,Paid,
+1386,10/30/2023,Aetna,99203,225,Paid,
+1387,11/6/2023,UnitedHealth,99203,394,Paid,
+1388,8/4/2023,UnitedHealth,36415,187,Paid,
+1389,5/16/2023,Aetna,99204,267,Paid,
+1390,12/20/2023,UnitedHealth,99214,302,Paid,
+1391,2/2/2023,Cigna,99213,162,Denied,Coding Error
+1392,4/27/2023,UnitedHealth,99214,439,Paid,
+1393,4/5/2023,UnitedHealth,99213,103,Paid,
+1394,7/24/2023,Medicare,99204,117,Denied,Prior Auth Missing
+1395,8/13/2023,BlueCross,99214,157,Paid,
+1396,6/27/2023,UnitedHealth,99204,158,Paid,
+1397,3/11/2023,UnitedHealth,99203,362,Denied,Coverage Terminated
+1398,4/18/2023,BlueCross,99213,166,Paid,
+1399,5/13/2023,BlueCross,36415,219,Paid,
+1400,11/19/2023,BlueCross,99213,146,Denied,Coding Error
+1401,8/25/2023,BlueCross,99204,146,Paid,
+1402,10/17/2023,UnitedHealth,36415,299,Paid,
+1403,6/23/2023,Aetna,99214,148,Paid,
+1404,4/20/2023,Medicare,36415,356,Denied,Prior Auth Missing
+1405,5/14/2023,BlueCross,99214,310,Denied,Coding Error
+1406,7/13/2023,Aetna,36415,186,Paid,
+1407,6/16/2023,Aetna,99213,243,Paid,
+1408,4/5/2023,Medicare,99204,127,Paid,
+1409,3/3/2023,BlueCross,99204,338,Pending,
+1410,9/27/2023,UnitedHealth,99204,429,Paid,
+1411,5/21/2023,UnitedHealth,36415,229,Paid,
+1412,4/18/2023,Cigna,36415,402,Paid,
+1413,4/12/2023,Aetna,99213,387,Paid,
+1414,8/1/2023,UnitedHealth,99213,132,Pending,
+1415,3/6/2023,Cigna,99213,240,Paid,
+1416,2/28/2023,Medicare,36415,232,Paid,
+1417,11/29/2023,BlueCross,99204,313,Denied,Duplicate Claim
+1418,6/11/2023,BlueCross,99203,158,Paid,
+1419,6/8/2023,BlueCross,99213,139,Denied,Duplicate Claim
+1420,9/25/2023,Medicare,99204,197,Paid,
+1421,4/11/2023,BlueCross,99204,150,Paid,
+1422,10/19/2023,UnitedHealth,99203,370,Paid,
+1423,9/7/2023,Aetna,99213,409,Paid,
+1424,4/5/2023,BlueCross,99214,339,Paid,
+1425,4/13/2023,BlueCross,99204,362,Paid,
+1426,5/14/2023,Medicare,99204,336,Pending,
+1427,8/21/2023,UnitedHealth,99213,347,Paid,
+1428,2/5/2023,BlueCross,99203,176,Paid,
+1429,1/5/2023,Aetna,99213,309,Paid,
+1430,11/4/2023,Cigna,36415,404,Paid,
+1431,5/3/2023,Medicare,99203,378,Paid,
+1432,12/14/2023,Medicare,99213,149,Paid,
+1433,3/19/2023,Aetna,36415,253,Paid,
+1434,12/11/2023,UnitedHealth,99213,195,Denied,Prior Auth Missing
+1435,7/5/2023,UnitedHealth,99203,269,Paid,
+1436,2/18/2023,BlueCross,99203,103,Paid,
+1437,4/30/2023,UnitedHealth,99203,321,Paid,
+1438,2/14/2023,Medicare,36415,283,Paid,
+1439,10/11/2023,BlueCross,99203,103,Paid,
+1440,5/25/2023,BlueCross,99204,198,Paid,
+1441,9/24/2023,Aetna,36415,407,Paid,
+1442,1/8/2023,Medicare,99214,352,Paid,
+1443,6/27/2023,BlueCross,99203,108,Denied,Duplicate Claim
+1444,8/2/2023,UnitedHealth,99203,310,Paid,
+1445,6/15/2023,UnitedHealth,99204,367,Paid,
+1446,7/22/2023,Medicare,99213,233,Denied,Prior Auth Missing
+1447,4/28/2023,BlueCross,99204,319,Paid,
+1448,3/9/2023,Aetna,99204,385,Paid,
+1449,10/29/2023,UnitedHealth,99213,293,Denied,Duplicate Claim
+1450,1/10/2023,BlueCross,99204,245,Paid,
+1451,4/12/2023,UnitedHealth,99214,272,Paid,
+1452,1/21/2023,Aetna,99203,283,Paid,
+1453,2/6/2023,BlueCross,36415,445,Paid,
+1454,10/7/2023,BlueCross,99203,258,Paid,
+1455,1/14/2023,Cigna,99203,190,Denied,Duplicate Claim
+1456,9/4/2023,Aetna,99213,277,Paid,
+1457,6/17/2023,Medicare,99204,209,Paid,
+1458,4/6/2023,Medicare,99204,387,Denied,Prior Auth Missing
+1459,2/6/2023,BlueCross,36415,395,Denied,Duplicate Claim
+1460,9/7/2023,Medicare,36415,236,Denied,Prior Auth Missing
+1461,9/14/2023,UnitedHealth,36415,446,Paid,
+1462,5/24/2023,Cigna,99204,355,Pending,
+1463,11/24/2023,BlueCross,36415,318,Denied,Prior Auth Missing
+1464,10/11/2023,Medicare,36415,102,Paid,
+1465,10/24/2023,BlueCross,99204,381,Paid,
+1466,12/4/2023,UnitedHealth,99214,335,Paid,
+1467,8/17/2023,Aetna,99214,317,Paid,
+1468,7/6/2023,UnitedHealth,99214,418,Paid,
+1469,6/8/2023,BlueCross,99204,370,Paid,
+1470,1/20/2023,Aetna,36415,400,Paid,
+1471,2/8/2023,Medicare,99214,300,Denied,Prior Auth Missing
+1472,12/21/2023,Medicare,99203,247,Denied,Prior Auth Missing
+1473,6/25/2023,Medicare,36415,444,Pending,
+1474,10/25/2023,BlueCross,36415,381,Paid,
+1475,3/17/2023,Aetna,99214,131,Paid,
+1476,4/1/2023,Cigna,99204,447,Paid,
+1477,6/15/2023,UnitedHealth,36415,353,Paid,
+1478,1/20/2023,Aetna,36415,228,Denied,Coding Error
+1479,1/6/2023,UnitedHealth,99214,344,Paid,
+1480,11/11/2023,UnitedHealth,99213,315,Paid,
+1481,10/25/2023,Aetna,99204,252,Paid,
+1482,6/30/2023,UnitedHealth,36415,238,Paid,
+1483,2/2/2023,BlueCross,36415,341,Pending,
+1484,9/5/2023,Medicare,99214,375,Paid,
+1485,7/6/2023,Medicare,36415,142,Paid,
+1486,8/9/2023,Medicare,99204,146,Denied,Prior Auth Missing
+1487,2/18/2023,Medicare,99203,396,Paid,
+1488,11/4/2023,UnitedHealth,99213,249,Paid,
+1489,8/26/2023,Medicare,99204,363,Pending,
+1490,8/24/2023,BlueCross,99214,421,Paid,
+1491,12/17/2023,BlueCross,99204,397,Denied,Duplicate Claim
+1492,10/16/2023,Aetna,99214,270,Paid,
+1493,1/24/2023,Cigna,36415,441,Paid,
+1494,12/23/2023,Medicare,36415,242,Denied,Prior Auth Missing
+1495,2/11/2023,Medicare,99204,181,Paid,
+1496,11/10/2023,Medicare,99204,309,Denied,Prior Auth Missing
+1497,7/14/2023,Cigna,99214,193,Paid,
+1498,7/16/2023,Cigna,99204,255,Paid,
+1499,1/18/2023,UnitedHealth,36415,284,Paid,
+1500,11/19/2023,UnitedHealth,99213,317,Paid,

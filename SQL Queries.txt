@@ -1,0 +1,47 @@
+-- FILE: sql_queries.txt
+-- Project: Revenue Cycle Leakage Analysis
+
+--------------------------------------------------------------------------------
+-- 1. CALCULATE KEY PERFORMANCE INDICATOR: OVERALL CLAIM DENIAL RATE (KPI)
+-- GOAL: Determine the percentage of claims that are denied across the entire dataset.
+--------------------------------------------------------------------------------
+SELECT 
+    -- Numerator: Count all Denied claims (COUNT only sums the '1's)
+    (COUNT(CASE WHEN Claim_Status = 'Denied' THEN 1 END) * 100.0) 
+    -- Denominator: Divide by the total number of claims
+    / COUNT(*) AS Overall_Denial_Rate_Percent
+FROM medical_claims_data;
+
+
+--------------------------------------------------------------------------------
+-- 2. IDENTIFY TOP PAYER ANOMALIES: DENIAL RATE BY INSURANCE PROVIDER
+-- GOAL: Segment the denial rate to identify which insurance providers perform worst.
+--------------------------------------------------------------------------------
+SELECT 
+    Insurance_Provider,
+    -- Calculate the raw volume of denied claims for this specific provider bucket
+    COUNT(CASE WHEN Claim_Status = 'Denied' THEN 1 END) AS Denied_Count,
+    -- Calculate the denial rate (Denied Count / Total Claims submitted to this Provider)
+    (COUNT(CASE WHEN Claim_Status = 'Denied' THEN 1 END) * 100.0 / COUNT(*)) AS Denial_Rate
+FROM medical_claims_data
+-- Group the calculations by each unique provider name
+GROUP BY Insurance_Provider
+-- Order the results to show the highest denial rates at the top
+ORDER BY Denial_Rate DESC;
+
+
+--------------------------------------------------------------------------------
+-- 3. QUANTIFY LOST REVENUE BY DENIAL REASON
+-- GOAL: Calculate the financial impact to prioritize which operational error to fix first.
+--------------------------------------------------------------------------------
+SELECT 
+    Denial_Reason,
+    -- Sum the Billed_Amount for all claims in this Denial_Reason category
+    SUM(Billed_Amount) AS Lost_Revenue
+FROM medical_claims_data
+-- Filter to include ONLY denied claims before running the calculation
+WHERE Claim_Status = 'Denied'
+-- Group the financial totals by the specific reason for denial
+GROUP BY Denial_Reason
+-- Order the results to show the reasons causing the most financial loss at the top
+ORDER BY Lost_Revenue DESC;
